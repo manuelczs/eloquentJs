@@ -1,0 +1,19 @@
+{
+  "name": "eloquentjs",
+  "version": "1.0.0",
+  "description": "js",
+  "main": "adv.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelczs/eloquentJs.git"
+  },
+  "author": "manuelC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuelczs/eloquentJs/issues"
+  },
+  "homepage": "https://github.com/manuelczs/eloquentJs#readme"
+}

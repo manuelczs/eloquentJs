@@ -42,7 +42,7 @@ addEntry(["weekend", "cycling", "break", "peanuts", "beer"], true);
 // EXERCISES
 // The sum o a range
 var sumOfRange = (a,b) => {
-  return Math.trunc(((b*(b+1)) / 2) - ((a*(a+1)) / 2));
+  return Math.trunc((b*(b+1) / 2) - (a*(a+1)) / 2);
 }
 
 // Reversing an array
@@ -94,5 +94,3 @@ var deepEqual = (obj1, obj2) => {
   }
 
 }
-
-console.log(deepEqual(null, null))
