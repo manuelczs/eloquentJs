@@ -1,18 +1,3 @@
-/*let journal = [
-  { events: ["work", "touched tree", "pizza", "running", "television"], squirrel: false},
-  { events: ["work", "ice cream", "cauliflower", "lasagna", "touched tree", "brushed teeth"],
-    squirrel: false},
-  { events: ["weekend", "cycling", "break", "peanuts", "beer"], squirrel: true} 
-];
-
-len_journal = journal.length;
-
-var randomNum = Math.floor((Math.random() * len_journal) + 1) -1;
-
-
-
-/****************************************************************/
-
 // consider the following code
 var object1 = {value: 10};
 
@@ -39,7 +24,10 @@ addEntry(["work", "touched tree", "pizza", "running", "television"], false);
 addEntry(["work", "ice cream", "cauliflower", "lasagna", "touched tree", "brushed teeth"], false);
 addEntry(["weekend", "cycling", "break", "peanuts", "beer"], true);
 
+
+
 // EXERCISES
+
 // The sum o a range
 var sumOfRange = (a,b) => {
   return Math.trunc((b*(b+1) / 2) - (a*(a+1)) / 2);
